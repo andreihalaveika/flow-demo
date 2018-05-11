@@ -1,15 +1,18 @@
 {
-  "name": "flow-demo",
+  "name": "sample-node-app",
   "scripts": {
   },
-  "env": {
-  },
   "formation": {
+    "web": {
+      "quantity": 1
+    }
   },
   "addons": [
 
   ],
   "buildpacks": [
-
+    {
+      "url": "heroku/nodejs"
+    }
   ]
 }
